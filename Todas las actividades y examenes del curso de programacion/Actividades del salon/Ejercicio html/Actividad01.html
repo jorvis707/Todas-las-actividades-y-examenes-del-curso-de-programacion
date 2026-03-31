@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil y Registro - Jorvis Osio</title>
+</head>
+<body>
+
+    <header>
+        <h1>Perfil de Usuario</h1>
+    </header>
+
+    <section>
+        <h2>Datos Personales</h2>
+        <p><b>Nombre:</b> Jorvis</p>
+        <p><b>Apellido:</b> Osio</p>
+        <p><b>Edad:</b> 19 años</p>
+        
+        <h3>Acerca de mí</h3>
+        <p>
+            Que tal, mi nombre es Jorvis, soy DJ/Producer y estoy estudiando informatica en la UPTMA. 
+            Actualmente estoy aprendiendo programacion en la academia LOGROS.
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Formulario de Registro</h2>
+        <form action="#" method="post">
+            
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo" required><br><br>
+
+            <label for="password">Contraseña:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label for="fecha">Fecha de registro:</label><br>
+            <input type="date" id="fecha" name="fecha"><br><br>
+
+            <p>Género:</p>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="femenino">Femenino</label>
+            <input type="radio" id="otro" name="genero" value="otro">
+            <label for="otro">Otro</label><br><br>
+
+            <input type="checkbox" id="terminos" name="terminos" required>
+            <label for="terminos">Acepto los términos y condiciones</label><br><br>
+
+            <button type="submit">Enviar Registro</button>
+        </form>
+    </section>
+
+</body>
+</html>

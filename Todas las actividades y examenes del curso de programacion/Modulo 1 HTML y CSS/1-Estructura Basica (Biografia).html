@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Final Módulo 1 - HTML & CSS</title>
+    <link rel="stylesheet" href="1-Estructura Basica (Biografia).css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">
+            <h1>MODULO 1</h1>
+        </div>
+        <nav>
+            <ul class="nav-flex">
+                <li><a href="###################">Inicio</a></li>
+                <li><a href="###################">Servicios</a></li>
+                <li><a href="####################">Galeria</a></li>
+                <li><a href="#####################">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="grid-container">
+        
+        <section class="card bio">
+            <h1>Jorvis</h1>
+            <h2>Tecnico & Desarrollador</h2>
+            <p>Especialista en programacion, sistemas y hardware. Estudiante de la academia Logros.</p>
+        </section>
+
+        <section class="card">
+            <h3>Inventario Tecnico</h3>
+            <ul class="lista-custom">
+                <li>Procesadores Core i7</li>
+                <li>Memorias RAM DDR4</li>
+                <li>Discos Solidos SSD</li>
+                <li>Cables Flex de Video</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h3>Demostración de Box Model</h3>
+            <div class="contenedor-cajas">
+                <div class="caja-demo">Contenedor 1</div>
+                <div class="caja-demo">Contenedor 2</div>
+                <div class="caja-demo">Contenedor 3</div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h3>Formulario de Contacto</h3>
+            <form class="formulario">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre..." required>
+                
+                <label for="email">Correo Electronico:</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+                
+                <button type="submit" class="btn-submit">Enviar Solicitud</button>
+            </form>
+        </section>
+
+        <section class="card">
+            <h3>Estado del Servidor</h3>
+            <div class="loader-container">
+                <div class="loader"></div>
+                <p>Sincronizando base de datos...</p>
+            </div>
+        </section>
+
+        <section class="card profile-card">
+            <h3>Perfil de Usuario</h3>
+            <p>Hola mundo!!!.</p>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Desarrollo Web | Realizado por Jorvis</p>
+    </footer>
+
+</body>
+</html>

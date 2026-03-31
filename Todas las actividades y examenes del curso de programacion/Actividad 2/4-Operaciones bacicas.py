@@ -1,0 +1,7 @@
+print("MINI CALCULADORA")
+A = float(input("Introduce el primer numero: "))
+B = float(input("Introdice el segundo numero: "))
+print(f"Suma: {A + B}")
+print(f"Resta: {A - B}")
+print(f"Multiplicacion: {A * B}")
+print(f"Divicion: {A / B}")
