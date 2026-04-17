@@ -1,0 +1,84 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.contenedor-principal {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ejercicio {
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+.titulo-principal {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.btn-cta {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+.btn-cta:hover {
+    background-color: #c0392b;
+}
+
+
+.caja-modelo {
+    width: 150px;
+    padding: 20px;
+    border: 5px solid #333;
+    margin: 10px auto;
+    background-color: #f1c40f;
+    text-align: center;
+}
+
+
+.card {
+    text-align: center;
+}
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+
+.input-estilo {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+.input-estilo:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+
+.lista-cuadrada {
+    list-style-type: square;
+    line-height: 1.8;
+}
+
+body {
+    background-color: #3f94e9;
+}
